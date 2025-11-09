@@ -13,8 +13,8 @@ terraform {
 }
 
 import {
-    to = aws_s3_bucket.s3_existing
-    id = "ps-tf-existing-bucket-9169b660"
+  to = aws_s3_bucket.s3_existing
+  id = "ps-tf-existing-bucket-9169b660"
 }
 
 resource "random_id" "s3_suffix" {
